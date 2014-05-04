@@ -1,0 +1,11 @@
+Code adapted entirely from http://wiki.scipy.org/Cookbook/C_Extensions/NumPy_arrays?action=AttachFile&do=get&target=Cext_v2.tar.gz
+http://wiki.scipy.org/Cookbook/C_Extensions/NumPy_arrays
+
+Should compile on Ubuntu 12.04 64-bit with numpy 1.8 (which I installed via pip)
+
+To run:
+
+make clean
+make any_errors
+
+If this returns without error, the code produces the expected output and thus passes the set of provided tests.
